@@ -1,0 +1,33 @@
+{
+  "name": "artellecreative",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "prestart": "npm run export",
+    "start": "npm run start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@contentful/react-apps-toolkit": "^1.0.3",
+    "@contentful/rich-text-react-renderer": "^15.16.2",
+    "contentful": "^9.3.3",
+    "contentful-management": "^10.0.0",
+    "dotenv": "^16.0.0",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-calendly": "^2.2.3",
+    "react-dom": "17.0.2",
+    "sass": "^1.49.9",
+    "swiper": "^8.0.6",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.147",
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0",
+    "url-loader": "^4.1.1"
+  }
+}

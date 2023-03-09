@@ -1,0 +1,130 @@
+.container1 {
+  max-width: 1073px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.aboutmain {
+  background: url("../public/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+
+  .who {
+    padding-top: 90px;
+    max-width: 780px;
+    h2 {
+      text-align: left;
+    }
+  }
+  .aboutImage {
+    margin-left: 60%;
+    max-width: 40%;
+  }
+}
+.nameabout {
+  margin-top: 100px;
+}
+.principles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto 70px auto;
+  max-width: 986px;
+  .principImage {
+    margin-right: 125.85px;
+  }
+
+  .principtext {
+    max-width: 405px;
+    .blocktext {
+      margin-bottom: 75px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutmain {
+    .aboutImage {
+      max-width: 60%;
+      margin-left: 10%;
+    }
+    .who {
+      max-width: 661px;
+      margin: 0 auto;
+    }
+  }
+  .principles {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 700px) {
+  .aboutmain {
+    .container {
+      padding: 0 16px;
+      .aboutImage {
+        max-width: 100%;
+      }
+      h3 {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+  }
+  .nameabout {
+    margin-top: 160px;
+    margin-bottom: 50px;
+    h2 {
+      margin-bottom: 50px;
+    }
+  }
+  .principles {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    .principImage {
+      display: none;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .aboutmain {
+    .container1 {
+      padding: 0;
+      .aboutImage {
+        max-width: 100%;
+        margin: 0 20px;
+      }
+      .who {
+        padding-top: 50px;
+        padding: 50px 20px 0;
+      }
+    }
+  }
+  .nameabout {
+    margin-top: 40px;
+    h2 {
+      font-size: 36px !important;
+    }
+  }
+}
+@media (max-width: 460px) {
+  .who h2 {
+    padding: 0;
+  }
+}
+@media (min-width: 1445px) {
+  .aboutmain {
+    height: 650px;
+  }
+}
+@media (min-width: 1700px) {
+  .aboutmain {
+    height: 800px;
+  }
+}
+@media (min-width: 2000px) {
+  .aboutmain {
+    height: 1000px;
+  }
+}

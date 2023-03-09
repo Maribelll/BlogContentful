@@ -1,0 +1,131 @@
+/* header */
+/* menu */
+/* menu icon */
+/* menu btn */
+/* 48em = 768px */
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  height: 78px;
+  margin-left: -20px;
+
+  .menu {
+    position: absolute;
+    padding-top: 55px;
+    left: -765px;
+    top: 50px;
+    list-style: none;
+    overflow: hidden;
+    background-color: white;
+    height: 600px;
+
+    .navLi {
+      text-align: center;
+      display: block;
+      padding: 20px 20px;
+      text-decoration: none;
+    }
+  }
+  .menuBtn {
+    position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    right: 15px;
+    top: 23px;
+    width: 30px;
+    height: 21px;
+    &:checked {
+      ~ {
+        .menu {
+          padding-top: 55px;
+          top: 50px;
+          left: -20px;
+          width: 107%;
+          height: 1000px;
+          transition: 0.5s;
+        }
+        .menuIcon {
+          .navicon {
+            background: transparent;
+            &:before {
+              transform: rotate(-45deg);
+            }
+            &:after {
+              transform: rotate(45deg);
+            }
+          }
+          &:not(.steps) {
+            .navicon {
+              &:before {
+                top: 0;
+              }
+              &:after {
+                top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 20px 0px;
+    text-decoration: none;
+    position: relative;
+    margin-left: 20px;
+  }
+}
+.menu {
+  transition: 0.7s;
+  overflow: hidden;
+}
+.menuIcon {
+  cursor: pointer;
+  display: inline-block;
+  padding: 28px 20px;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  user-select: none;
+  .navicon {
+    background: #db8e76;
+    display: block;
+    height: 2px;
+    margin: 3px 0;
+    position: relative;
+    transition: 0.3s ease-out;
+    width: 27px;
+    &:before {
+      background: #db8e76;
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all 0.3s ease-out;
+      width: 100%;
+      top: 5px;
+    }
+    &:after {
+      background: #db8e76;
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all 0.3s ease-out;
+      width: 100%;
+      top: -5px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    display: none;
+  }
+}

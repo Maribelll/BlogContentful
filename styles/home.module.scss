@@ -1,0 +1,71 @@
+button.dark {
+  transition: ease-in-out 0.2s;
+  background: rgba(78, 147, 206, 1);
+  color: white;
+  font-family: "sofia-pro";
+  &:hover {
+    background: rgba(60, 113, 159, 1);
+
+    transition: ease-in-out 0.2s;
+    &:active {
+      background: rgba(78, 147, 206, 1);
+      box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.25) inset;
+    }
+    a {
+      padding-right: 30px;
+      &:hover {
+        color: white;
+      }
+      &:active {
+        color: white;
+      }
+    }
+  }
+}
+.sectionService {
+  background: rgba(247, 247, 250, 1);
+  .allservices {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .service {
+      text-align: center;
+      max-width: 256px;
+      .header3 {
+        margin-top: 5px;
+      }
+      p.small {
+        width: 200px;
+        line-height: 24px;
+        font-size: 16px;
+      }
+    }
+  }
+  .btnServices {
+    padding: 50px 0 88px;
+    text-align: center;
+  }
+}
+.haction {
+  font-size: 55px;
+  margin-bottom: 40px;
+  line-height: 69px;
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 600px) {
+  .sectionService {
+    .allservices {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .haction {
+    font-size: 36px;
+  }
+}
