@@ -1,10 +1,10 @@
 {
-  "name": "artellecreative",
+  "name": "blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "prestart": "npm run export",
     "start": "npm run start",
     "lint": "next lint"

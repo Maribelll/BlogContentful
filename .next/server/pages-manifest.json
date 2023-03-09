@@ -1,7 +1,11 @@
 {
+  "/404": "pages/404.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
+  "/api/register": "pages/api/register.js",
   "/": "pages/index.js",
-  "/404": "pages/404.js"
+  "/our-approach-to-website-projects": "pages/our-approach-to-website-projects.html",
+  "/strategy-what-is-it-good-for": "pages/strategy-what-is-it-good-for.html",
+  "/what-makes-for-an-effective-website": "pages/what-makes-for-an-effective-website.html",
+  "/_error": "pages/_error.js"
 }

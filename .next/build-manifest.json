@@ -1,39 +1,66 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js",
-    "static/development/_middlewareManifest.js"
+    "static/f18LMlSmWmBwizcm77VV1/_buildManifest.js",
+    "static/f18LMlSmWmBwizcm77VV1/_ssgManifest.js",
+    "static/f18LMlSmWmBwizcm77VV1/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-57d1094f66c442d9.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-dab4f2bd847a1c97.js",
+      "static/chunks/247-e3e4516886144b0c.js",
+      "static/css/97d7c1b4b5f35aaf.css",
+      "static/chunks/pages/index-923e8fea04446bc1.js"
     ],
     "/404": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/404.js"
+      "static/chunks/webpack-57d1094f66c442d9.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-dab4f2bd847a1c97.js",
+      "static/css/d89c056e711dbe5b.css",
+      "static/chunks/pages/404-d3524d3927c3e861.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-57d1094f66c442d9.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-dab4f2bd847a1c97.js",
+      "static/css/a3b03361a3183e8e.css",
+      "static/chunks/pages/_app-c0fd40df53bd81b0.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-57d1094f66c442d9.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-dab4f2bd847a1c97.js",
+      "static/chunks/pages/_error-2280fa386d040b66.js"
+    ],
+    "/our-approach-to-website-projects": [
+      "static/chunks/webpack-57d1094f66c442d9.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-dab4f2bd847a1c97.js",
+      "static/chunks/247-e3e4516886144b0c.js",
+      "static/css/0cbc3a6a0c71ec1a.css",
+      "static/chunks/pages/our-approach-to-website-projects-8045707eca21302a.js"
+    ],
+    "/strategy-what-is-it-good-for": [
+      "static/chunks/webpack-57d1094f66c442d9.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-dab4f2bd847a1c97.js",
+      "static/chunks/247-e3e4516886144b0c.js",
+      "static/css/0cbc3a6a0c71ec1a.css",
+      "static/chunks/pages/strategy-what-is-it-good-for-d3be4776d5f60196.js"
+    ],
+    "/what-makes-for-an-effective-website": [
+      "static/chunks/webpack-57d1094f66c442d9.js",
+      "static/chunks/framework-5f4595e5518b5600.js",
+      "static/chunks/main-dab4f2bd847a1c97.js",
+      "static/chunks/247-e3e4516886144b0c.js",
+      "static/css/0cbc3a6a0c71ec1a.css",
+      "static/chunks/pages/what-makes-for-an-effective-website-6da534932ab0eeab.js"
     ]
   },
   "ampFirstPages": []
